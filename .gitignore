@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# Node
+node_modules/
+dist/
+.DS_Store
+
+# Projeto UltraDanfeXML
+output/
+logs/
+config/*.db
+config/*.json
+!config/protheus_config.json
+instance/
+temp/
+
+# Pesados (Ignorar sempre)
+playwright-browsers/
+*.rar
+*.zip
+*.7z
+*.exe
+*.dll
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
