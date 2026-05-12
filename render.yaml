@@ -1,0 +1,13 @@
+services:
+  - type: web
+    name: ultradanfexml-backend
+    env: python
+    buildCommand: "./build.sh"
+    startCommand: "gunicorn api:app"
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.10.0
+      - key: FLASK_ENV
+        value: production
+      - key: ALLOW_NO_API_KEYS
+        value: "true"

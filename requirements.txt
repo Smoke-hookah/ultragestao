@@ -1,0 +1,15 @@
+requests==2.33.0
+openpyxl==3.1.5
+python-dotenv==1.0.0
+flask==3.0.0
+flask-cors==4.0.0
+lxml>=5.2.0
+pypdf==5.1.0
+docling==2.82.0
+playwright>=1.55.0
+pywin32>=308; platform_system == "Windows"
+sqlalchemy==2.0.25
+gunicorn==21.2.0
+
+# Opcional (modo teste/local): gerar DANFE sem API
+brazilfiscalreport>=0.5.33

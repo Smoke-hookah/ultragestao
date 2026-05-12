@@ -1,0 +1,57 @@
+{
+  "base_url": "",
+  "selector_version": 1,
+  "protheus_user": "",
+  "uf_branch_map": {
+    "MG": "0202",
+    "RJ": "0101",
+    "SP": "0201"
+  },
+  "timeouts": {
+    "default_ms": 12000,
+    "navigation_ms": 30000,
+    "download_ms": 180000,
+    "file_settle_seconds": 3,
+    "poll_interval_ms": 500
+  },
+  "browser": {
+    "headless": false,
+    "slow_mo_ms": 0,
+    "viewport": {
+      "width": 1440,
+      "height": 900
+    }
+  },
+  "login": {
+    "username_selector": "input[name='username']",
+    "password_selector": "input[type='password']",
+    "submit_selector": "button[type='submit']",
+    "success_selector": "__PREENCHER__"
+  },
+  "branch": {
+    "open_steps": [],
+    "input_selector": "__PREENCHER__",
+    "confirm_selector": "__PREENCHER__",
+    "success_selector": "__PREENCHER__"
+  },
+  "xml_export": {
+    "mode": "target_dir",
+    "open_steps": [],
+    "nf_from_selector": "__PREENCHER__",
+    "nf_to_selector": "__PREENCHER__",
+    "target_dir_selector": "__PREENCHER__",
+    "submit_selector": "__PREENCHER__",
+    "completion_selector": "__PREENCHER__",
+    "expected_glob": "*.xml",
+    "extract_zip_downloads": true
+  },
+  "boleto_export": {
+    "mode": "download",
+    "open_steps": [],
+    "nf_from_selector": "__PREENCHER__",
+    "nf_to_selector": "__PREENCHER__",
+    "submit_selector": "__PREENCHER__",
+    "completion_selector": "__PREENCHER__",
+    "download_filename": "boletos.pdf"
+  }
+}

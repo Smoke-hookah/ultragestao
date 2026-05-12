@@ -1,0 +1,6 @@
+# Configuração para Hostinger/Hostgator
+PassengerEnabled On
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ passenger_wsgi.py [QSA,L]
